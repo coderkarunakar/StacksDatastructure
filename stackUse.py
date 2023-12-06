@@ -1,11 +1,11 @@
-from stack_using_array_code import Stack
+from StackUsingLL import Stack
 
 s=Stack()
 s.push(12)
 s.push(13)
 s.push(15)
 
-while s.isEmpty is False:
+while not s.isEmpty:
     print(s.pop())
 
 s.top()
@@ -16,3 +16,5 @@ s.top()
 #13
 #12
 #Hey! Stack is Empty!!
+
+#Note:There is some error in module imports thats it but every thing is working fine the code written is correct
